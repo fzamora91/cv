@@ -1,73 +1,96 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  
+  <meta charset="ISO-8859-1">
+  <meta charset="utf-8">  
 <title>Home</title>
+  <link rel="stylesheet" href="css/normalize.css" />
   <link rel="stylesheet" href="css/estilo.css" />
 </head>
 <body>   
    <header>
-    <div class="title">
-      <h1>Curriculum Vitae</h1>
-    </div>  
+     <div class="container">
+      <div class="title">
+        <h1>Curriculum Vitae</h1>
+      </div>  
+     </div>  
    </header>
   
-  <section>
-    <div class="title"><h1>Información personal </h1></div>
-    <article>
+  <section class="details">
+    <div class="container">
+     <div class="title"><h1>Información personal </h1></div>
+     <article>
        <p><strong>Nombre : </strong>Felix Alejandro Zamora Sandoval</p>
        <p><strong>Cedula : </strong>25 Años</p>
        <p><strong>Estado Civil : </strong>Soltero</p>
        <p><strong>Email : </strong> flxzamora91@gmail.com</p>
        <p><strong>Direccion : </strong> Bo San Jose Oriental</p>
        <p><strong>Movil : </strong>(505) 75563850</p>
-    </article>    
-    
+     </article>    
+    </div>
   </section>
 
-   <section> 
-     <div class="title"><h1>Educación</h1></div>
+   <section class="education">
+    <div class="container"> 
+      <div class="title">
+        <h1>Educación</h1>
+      </div>
        <article>
-          <h1>Universidad Nacional de Ingenieria <span>2008-2012</span></h1>
+          <h1>Universidad Nacional de Ingenieria</h1>
+          <span>2008 - 2012</span>
           <p>Ingenieria en Computacion<p>
-       </article>          
+       </article> 
+     </div>           
    </section>
  
-   <section> 
-     <div class="title"><h1>Cursos y Seminarios</h1></div>
+   <section class="courses">
+    <div class="container"> 
+     <div class="title">
+       <h1>Cursos y Seminarios</h1>
+      </div>
      <article>
-      <h1>Instituto Manuel Olivares - NIIT <span>2010</span></h1>
+      <h1>Instituto Manuel Olivares - NIIT </h1>
+      <span>2010</span>
       <p>Fundamentos de la Programacion en java</p>
      </article>
      <article>
-        <h1>Instituto Manuel Olivares - NIIT <span>2011</span></h1>
+        <h1>Instituto Manuel Olivares - NIIT </h1>
+        <span>2011</span>
         <p>Aplicaciones empresariales en java</p>
      </article>
      <article>
-        <h1>Instituto Manuel Olivares - NIIT <span>2011</span></h1>
+        <h1>Instituto Manuel Olivares - NIIT </h1>
+        <span>2011</span>
       <p>Aplicaciones web con jsp</p>
      </article>
      <article>
-        <h1>Instituto Manuel Olivares - NIIT <span>2011</span></h1>      
+        <h1>Instituto Manuel Olivares - NIIT </h1>
+        <span>2011</span>      
          <p>webservices con java</p>
      </article>
+     </div>
    </section>
 
-   <section> 
-     </div><div class="title"><h1>Idiomas</h1></div>
+   <section class="languages"> 
+     <div class="container">
+       <div class="title">
+        <h1>Idiomas</h1>
+       </div>
      <article>
         <ul>
-          <li><span>Español</span></li>
-          <li><span>Ingles</span></li>
+          <li>Español</li>
+          <li>Ingles</li>
         <ul>
      </article>
+     </div>
    </section>
 
    <section> 
+      <div class="container">
       <div class="title"><h1>Experiencia profesional</h1></div>
       <article>
-        <h1>Inide <span>Agosto 2016 - Diciembre 2016</span></h1>
+        <h1>Inide</h1>
+        <span>Ago 2016 -Dic 2016</span>
         <p><strong>Proyecto : </strong>Sistema Procesamiento de Datos</p>
         <ul><li><h3>Herramientas</h3>
          <ul>
@@ -92,7 +115,8 @@
       </ul>
       </article>      
       <article>
-        <h1>Servicios Informáticos S.A <span>Mayo 2014 - Octubre 2014</span></h1>
+        <h1>Servicios Informáticos S.A</h1>
+        <span>May 2014 - Dic 2014</span>
         <p><strong>Proyecto : </strong>Sistema ERP Sif</p>
         <ul>
          <li>
@@ -115,7 +139,8 @@
         </ul>
       </article>
       <article>
-        <h1>Servicios Informáticos S.A <span>Febrero 2014 </span></h1>
+        <h1>Servicios Informáticos S.A </h1>
+        <span>Feb 2014 </span>
         <p><strong>Proyecto : </strong>Portal de Colonos Casur</p>
         <ul>
          <li>
@@ -138,7 +163,8 @@
         </ul>
       </article>
       <article>
-        <h1>Servicios Informáticos S.A <span>Junio 2015 – Junio 2016 </span></h1>
+        <h1>Servicios Informáticos S.A </h1>
+        <span>Jun 2015 – Jun 2016 </span>
         <p><strong>Proyecto : </strong>Sistema de Monitoreo en Tiempo Real</p>
         <ul>
          <li>
@@ -152,31 +178,41 @@
         </ul>
       </article> 
       <article>
-        <h1>Aja S.A <span>2011 - 2012</span></h1>
+        <h1>Aja S.A </h1>
+        <span>2011 - 2012</span>
         <p><strong>Proyecto : </strong> Sistema Excelent  ERP</p>
            <ul>
               <li>Desarrollo de nuevos módulos del sistema Excelent ERP con ASP.NET, C# y Transact- SQL </li>
               <li>Soporte y Mantenimiento del sistema Excelent  ERP </li>
           </ul>
       </article>
+      </div>
     </section>
      
-     <section> 
+     <section class="skill">
+       <div class="container"> 
        <div class="title"><h1>Conocimientos técnicos </h1></div>
         <article>
           <h1>Desarrollador Web</h1>
-          <p>Desarrollo de Aplicaciones Web con C#, ASP.NET MVC 5 y EntityFramework 6.0.</p>
-          <p>Desarrollo de aplicaciones Web con Java, JSP, Mysql</p>     
+          <ul>
+             <li>Desarrollo de Aplicaciones Web con C#, ASP.NET MVC 5 y EntityFramework 6.0.</li>
+             <li>Desarrollo de aplicaciones Web con Java, JSP, Mysql</li>
+          </ul>
         </article>
         <article>
           <h1>Programador de aplicaciones de Escritorio</h1>
-          <p>Desarrollo de aplicaciones Desktop con C# y MS SQL Server 2008.</p>
-          <p>Desarrollo de aplicaciones Desktop con Java y MS SQL Server 2008.</p>
+          <ul>
+             <li>Desarrollo de aplicaciones Desktop con C# y MS SQL Server 2008.</li>
+             <li>Desarrollo de aplicaciones Desktop con Java y MS SQL Server 2008.</li>
+          </ul>
         </article>
         <article>
           <h1>Hardware</h1>
-           <p>Reparación y mantenimiento de computadoras.</p>
+           <ul>
+             <li>Reparación y mantenimiento de computadoras.</li>
+          </ul>
          </article>
+         </div>
       </section>     
 
     <footer>
