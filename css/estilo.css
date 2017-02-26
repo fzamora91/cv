@@ -136,13 +136,28 @@ section article p
 
 section article ul
 {
-       
+  list-style:point;
 }
 
-section article ul li
+section article ul li h3
 {
-       
+    font-weight: normal;
 } 
+
+section article ul li ul 
+{
+  list-style: circle;
+}
+
+section article ul li ul li h4
+{
+  font-weight: normal;
+}
+
+section article ul li ul li ul
+{
+  list-style: square;       
+}
 
 footer
 {
