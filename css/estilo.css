@@ -20,7 +20,7 @@ header
     
 header .title
 { 
-  background:#2E3136;
+  background:#2093A5;
   border-radius:2px;
   padding:5px 0px;
   margin:0px;
@@ -72,11 +72,10 @@ section.skill
 
 section .title
 {
-  background:silver;
+  background:#F0DDAA;
   border-radius:2px;
   padding:5px 0px;
   height:40px;
-  /*height:20px;*/ 
 }
 
 section .title h1
@@ -95,6 +94,7 @@ section article
  width:32%;
  min-height:250px;
  overflow:hidden;
+ background:none;
 }
 
 section.details article
@@ -127,13 +127,20 @@ section article h1
   font-family: "Arial";
   font-size:18px;
   color:black;
+  background:#E57D5D;
+  padding:3px 3px 3px 3px;
+  border-radius:2px;
+  text-shadow:1px 1px 3px white;
 }
      
 section article span
 {
   font-family:"Arial";
   font-size: 12px;
-  color:black;
+  color:#132B3C;
+  background:#ECE9CB;
+  padding:1px 1px;
+  border-radius:2px;
 }
 section article p
 {
