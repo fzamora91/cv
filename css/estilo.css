@@ -4,11 +4,11 @@ body
 
 }
 
-.container
+.container 
 {
-  width:960px;
-  margin:0 auto;
-  padding:0 0;
+    width:960px;
+    margin:0 auto;
+    padding:0 0;
 }
 
 header
@@ -89,7 +89,7 @@ section .title h1
 section article 
 {
  padding:0px 4px;
- margin:0px 0px;
+ /*margin:0px 0px;*/
  display:inline-block;
  width:32%;
  min-height:250px;
@@ -136,12 +136,13 @@ section article h1
 section article span
 {
   font-family:"Arial";
-  font-size: 12px;
+  font-size:13px;
   color:#132B3C;
   background:#ECE9CB;
-  padding:1px 1px;
+  padding:3px 3px;
   border-radius:2px;
 }
+
 section article p
 {
  font-family:"Arial";
@@ -191,4 +192,63 @@ footer
   height: 50px;
   background:white;
 }
+
+@media screen and (min-width:1200px){  
+ .container
+ {  
+   width:1100px;  
+ }     
+}
+
+@media screen and (min-width:960px)
+{ 
+  .container 
+  {
+    width:960px;
+    margin:0 auto;
+    padding:0 0;
+  } 
+}
+
+@media screen and (max-width:600px)
+{    
+ .container
+ {  
+  width:auto;  
+ }
+
+ section .title h1
+ {
+  font-size:17px;
+ }
+ 
+ section article 
+ {
+    display:inline;
+ }    
+ section article h1
+ {
+    font-size:16px;
+ } 
+} 
+
+@media screen and (max-width:320px)
+{    
+ .container
+ {  
+  width:auto;  
+ }
+ section .title h1
+ {
+  font-size:15px;
+ }
+ section article 
+ {
+    display:inline;
+ }     
+ section article h1
+ {
+   font-size:14px;
+ }
+} 
 
