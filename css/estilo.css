@@ -82,10 +82,10 @@ section .title h1
      
 section article 
 {
- padding:0px 7px;
+ padding:0px 4px;
  margin:0px 0px;
  display:inline-block;
- width:30%;
+ width:32%;
  min-height:250px;
  overflow:hidden;
 }
