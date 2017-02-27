@@ -1,0 +1,58 @@
+body
+{
+	background:#9ACBDF;
+}
+
+section
+{
+	background:#FFFFFF;
+	min-height:200px;
+	padding:4px 8px;
+}
+
+section h1
+{
+	color:#2196F3;
+	font-family:"Arial";
+	font-size:24px;
+	border-bottom:1px solid black;
+}
+section article h1
+{	
+	color:#000;
+	font-family:verdana;
+	font-size:18px;
+	border:none;
+	padding:0px;
+    margin:5px 0px 0px 0px;
+}
+
+section article span
+{
+  font-family:"Arial";
+  font-size:11px;
+  color:#132B3C;
+  background:none;
+  padding:1px 3px;
+  border-radius:2px;
+  margin-bottom:4px;
+}
+
+section article p
+{
+    color:#000;
+	font-family:"Arial";
+	font-size:15px;
+	border:none;	
+}
+
+@media screen and (max-width:600px)
+{    
+  
+}
+
+@media screen and (min-width:960px)
+{ 
+  
+}
+
